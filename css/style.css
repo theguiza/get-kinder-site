@@ -35,3 +35,15 @@
 .widescreenBox {
   aspect-ratio: 16 / 9;
 }
+
+.profile-card {
+  border: 2px solid #455a7c; /* Kinder blue or any color you want */
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05); /* optional subtle background */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  padding: 15px;
+  height: 100%;
+}
+.profile-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* optional stronger shadow on hover */
+} 
